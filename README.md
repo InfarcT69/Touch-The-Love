@@ -1,5 +1,5 @@
 # TouchButtons-for-Love
-Just a library to quickly and easily create tactile buttons
+Just a library to quickly and easily create tactile buttons and mouse clickable buttons
 # Start
 Put the ``touchbuttons.lua`` file in your project
 ```lua
@@ -9,7 +9,7 @@ TouchButtons = require('touchbuttons')
 ```lua
 function love.load()
     TouchButtons = require('touchbuttons')
-    Button = TouchButtons:newRectangleButton(50, 100, 50, 50)
+    Button = TouchButtons:newRectangleButton(50, 100, 50, 50, 'touch')
 end
 
 function love.draw()
@@ -26,12 +26,12 @@ end
 
 Tactile buttons
 
-#### ``:newRectangleButton(x, y, w, h)``
+#### ``:newRectangleButton(x, y, w, h, buttonType)``
 
 Creates a new rectangular button
 
 ```lua
-Button = TouchButtons:newRectangleButton(50, 100, 40, 30)
+Button = TouchButtons:newRectangleButton(50, 100, 40, 30, 'mouse')
 ```
 
 Arguments:
@@ -39,6 +39,7 @@ Arguments:
 * `y` `(number)`-Rectangular button Y position
 * `w` `(number)`-Rectangular button Width
 * `h` `(number)`-Rectangular button Height
+* `buttonType` `(boolean)`-The type of your button, can be `'touch'` or `'mouse'` respectively
 
 ---
 
