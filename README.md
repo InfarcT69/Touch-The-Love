@@ -54,3 +54,17 @@ buttonIsPressed = Button:checkPressed()
 
 Returns:
 * `Boolean`
+
+---
+
+#### ``:getPosition()``
+
+Returns the X and Y position of the button
+
+```lua
+x, y = Button:getPosition()
+```
+
+Returns:
+* `Button.X` `(number)`-X position of the button
+* `Button.Y` `(number)`-Y position of the button
