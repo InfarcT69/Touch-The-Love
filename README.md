@@ -26,7 +26,7 @@ end
 
 Tactile buttons
 
-### ``:newRectangleButton(x, y, w, h)``
+#### ``:newRectangleButton(x, y, w, h)``
 
 Creates a new rectangular button
 
@@ -39,3 +39,18 @@ Arguments:
 * `y` `(number)`-Rectangular button Y position
 * `w` `(number)`-Rectangular button Width
 * `h` `(number)`-Rectangular button Height
+
+## Button Properties
+
+Check the properties of a button
+
+#### ``:checkPressed()``
+
+Returns true or false depending on whether the button has been pressed
+
+```lua
+buttonIsPressed = Button:checkPressed()
+```
+
+Returns:
+* `Boolean`
