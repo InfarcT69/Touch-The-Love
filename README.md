@@ -136,7 +136,7 @@ w = getWidth()
 ```
 
 Returns:
-* `Button.W` `(number)`-Width of the button
+* `Button.w` `(number)`-Width of the button
 
 ---
 
@@ -149,7 +149,7 @@ h = getHeight()
 ```
 
 Returns:
-* `Button.Y` `(number)`-Y position of the button
+* `Button.h` `(number)`-Height of the button
 
 ---
 
