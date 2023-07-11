@@ -40,6 +40,8 @@ Arguments:
 * `w` `(number)`-Rectangular button Width
 * `h` `(number)`-Rectangular button Height
 
+---
+
 ## Button Properties
 
 Check the properties of a button
@@ -53,7 +55,7 @@ buttonIsPressed = Button:checkPressed()
 ```
 
 Returns:
-* `Boolean`
+* `Button.isPressed` `(Boolean)`
 
 ---
 
@@ -67,4 +69,30 @@ x, y = Button:getPosition()
 
 Returns:
 * `Button.X` `(number)`-X position of the button
+* `Button.Y` `(number)`-Y position of the button
+
+---
+
+#### ``:getX()``
+
+Returns the X position of the button
+
+```lua
+x = getX()
+```
+
+Returns:
+* `Button.X` `(number)`-X position of the button
+
+---
+
+#### ``:getY()``
+
+Returns the Y position of the button
+
+```lua
+x = getX()
+```
+
+Returns:
 * `Button.Y` `(number)`-Y position of the button
