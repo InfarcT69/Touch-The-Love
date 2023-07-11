@@ -99,13 +99,68 @@ Returns:
 
 ---
 
-#### ``:movePosition(x, y)``
+#### ``:setPosition(x, y)``
 
 Moves the position of the button
 
 ```lua
-Button:movePosition(10, 20)
+Button:setPosition(10, 20)
 ```
 
 Arguments:
-* `x` `(
+* `x` `(number)`-New X position of the button
+* `y` `(number)`-New Y position of the button
+
+---
+
+#### ``:getDimensions()``
+
+Returns the Width and Height of the button
+
+```lua
+w, h = Button:getDimensions()
+```
+
+Returns:
+* `Button.W` `(number)`-Width of the button
+* `Button.H` `(number)`-Height of the button
+
+---
+
+#### ``:getWidth()``
+
+Returns the Width of the button
+
+```lua
+w = getWidth()
+```
+
+Returns:
+* `Button.W` `(number)`-Width of the button
+
+---
+
+#### ``:getHeight()``
+
+Returns the Height of the button
+
+```lua
+h = getHeight()
+```
+
+Returns:
+* `Button.Y` `(number)`-Y position of the button
+
+---
+
+#### ``:setDimensions(w, h)``
+
+Moves the position of the button
+
+```lua
+Button:setDimensions(40, 50)
+```
+
+Arguments:
+* `w` `(number)`-New Width of the button
+* `h` `(number)`-New Height of the button
