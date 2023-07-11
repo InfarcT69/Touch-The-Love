@@ -19,3 +19,23 @@ function love.draw()
     end
 end
 ```
+
+# Documentation
+
+## Buttons
+
+Tactile buttons
+
+### ``:newRectangleButton(x, y, w, h)``
+
+Creates a new rectangular button
+
+```lua
+Button = TouchButtons:newRectangleButton(50, 100, 40, 30)
+```
+
+Arguments:
+* `x` `(number)`-Rectangular button X position
+* `y` `(number)`-Rectangular button Y position
+* `w` `(number)`-Rectangular button Width
+* `h` `(number)`-Rectangular button Height
