@@ -91,8 +91,21 @@ Returns:
 Returns the Y position of the button
 
 ```lua
-x = getX()
+y = getY()
 ```
 
 Returns:
 * `Button.Y` `(number)`-Y position of the button
+
+---
+
+#### ``:movePosition(x, y)``
+
+Moves the position of the button
+
+```lua
+Button:movePosition(10, 20)
+```
+
+Arguments:
+* `x` `(
