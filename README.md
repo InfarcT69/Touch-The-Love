@@ -42,6 +42,16 @@ Arguments:
 
 ---
 
+#### ``:draw()``
+
+Draw the button
+
+```lua
+Button:draw()
+```
+
+---
+
 ## Button Properties
 
 Check the properties of a button
