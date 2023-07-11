@@ -39,7 +39,7 @@ Arguments:
 * `y` `(number)`-Rectangular button Y position
 * `w` `(number)`-Rectangular button Width
 * `h` `(number)`-Rectangular button Height
-* `buttonType` `(boolean)`-The type of your button, can be `'touch'` or `'mouse'` respectively
+* `buttonType` `(string)`-The type of your button, can be `'touch'` or `'mouse'` respectively
 
 ---
 
@@ -57,16 +57,19 @@ Button:draw()
 
 Check the properties of a button
 
-#### ``:checkPressed()``
+#### ``:checkPressed(mouseButton)``
 
 Returns true or false depending on whether the button has been pressed
 
 ```lua
-buttonIsPressed = Button:checkPressed()
+buttonPress = Button:checkPressed(1)
 ```
 
+Arguments:
+* `mouseButton` `(number)`-**(Only in case your button is mouse type)**. Mouse button `1` is left click `2` is right click `3` is middle click
+
 Returns:
-* `Button.isPressed` `(Boolean)`
+* `Button.isPressed` `(Boolean)`-True or False respectively if the button is being pressed
 
 ---
 
