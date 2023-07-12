@@ -1,4 +1,4 @@
-# TouchButtons-for-Love
+# Touch The Love
 Just a library to quickly and easily create tactile buttons and mouse clickable buttons
 # Start
 Put the ``touchbuttons.lua`` file in your project
