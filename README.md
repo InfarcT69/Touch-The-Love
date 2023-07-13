@@ -43,6 +43,22 @@ Arguments:
 
 ---
 
+#### ``:newCircleButton(x, y, r, buttonType)``
+
+Creates a new circular button
+
+```lua
+Button = TouchButtons:newCircleButton(50, 100, 50, 'mouse')
+```
+
+Arguments:
+* `x` `(number)`-Circle button X position
+* `y` `(number)`-Circle button Y position
+* `r` `(number)`-Circle button Radius
+* `buttonType` `(string)`-The type of your button, can be `'touch'` or `'mouse'` respectively
+
+---
+
 #### ``:draw()``
 
 Draw the button
@@ -169,7 +185,7 @@ Returns:
 
 #### ``:setDimensions(w, h)``
 
-Moves the position of the button
+Change the dimensions of the button
 
 ```lua
 Button:setDimensions(40, 50)
